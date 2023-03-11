@@ -13,6 +13,10 @@
       background-color: azure;
     }
 
+    .alert {
+      background-color: red;
+    }
+
     .bio-box {
       border: 1px solid black;
     }
@@ -23,6 +27,10 @@
 
     #exec-bio {
       background-color: lightgrey;
+    }
+
+    #exec-bio.alert {
+      background-color: red;
     }
 
     div {
@@ -54,7 +62,7 @@
     </li>
   </ul>
   <h2>I'm an h2</h2>
-  <div id="exec-bio" class="bio-box">
+  <div id="exec-bio" class="bio-box alert">
     <a href="https://example.com/">I'm a link</a>
   </div>
   <div id="orange-box" class="bio-box">
@@ -63,7 +71,7 @@
   <div class="bio-box azure-box">
     <a href="https://example.com/">I'm a link</a>
   </div>
-  <div class="bio-box">
+  <div class="bio-box alert">
     <a href="https://example.com/">I'm a link</a>
   </div>
 </body>
